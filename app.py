@@ -36,7 +36,7 @@ class TargetEncoder(BaseEstimator, TransformerMixin):
         return X_copy
 
 # Define file paths
-PREPROCESSOR_PATH = 'preprocessor_pipeline_final.pkl'
+PREPROCESSOR_PATH = 'preprocessor_pipeline_final2.pkl'
 MODEL_PATH = 'trained_random_forest_model1.pkl'
 
 # Check if files exist
