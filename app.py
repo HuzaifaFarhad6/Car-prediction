@@ -37,7 +37,7 @@ class TargetEncoder(BaseEstimator, TransformerMixin):
 
 # Define file paths
 PREPROCESSOR_PATH = 'preprocessor_pipeline_final2.pkl'
-MODEL_PATH = 'trained_random_forest_model1.pkl'
+MODEL_PATH = 'trained_random_forest_model2.pkl'
 
 # Check if files exist
 if not os.path.exists(PREPROCESSOR_PATH):
