@@ -36,8 +36,8 @@ class TargetEncoder(BaseEstimator, TransformerMixin):
         return X_copy
 
 # Define file paths
-PREPROCESSOR_PATH = 'D:/HUZAIFA/Car prediction/preprocessor_pipeline_final.pkl'
-MODEL_PATH = 'D:/HUZAIFA/Car prediction/trained_random_forest_model1.pkl'
+PREPROCESSOR_PATH = 'preprocessor_pipeline_final.pkl'
+MODEL_PATH = 'trained_random_forest_model1.pkl'
 
 # Check if files exist
 if not os.path.exists(PREPROCESSOR_PATH):
